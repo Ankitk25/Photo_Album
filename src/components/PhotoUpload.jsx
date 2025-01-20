@@ -28,11 +28,11 @@ const PhotoUpload = () => {
     };
 
     return (
-        <div className="flex flex-col items-center">
-            <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-2">
-                <input type="file" onChange={handleFileChange} className="px-4 py-2 border rounded-md" />
-                {preview && <img src={preview} alt="Preview" className="w-24 h-24 object-cover mt-2" />}
-                <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-md mt-2">Upload</button>
+        <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow-md">
+            <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-4">
+                <input type="file" onChange={handleFileChange} className="px-4 py-2 border border-gray-300 rounded-md" />
+                {preview && <img src={preview} alt="Preview" className="w-24 h-24 object-cover mt-2 rounded-md" />}
+                <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Upload</button>
             </form>
         </div>
     );
