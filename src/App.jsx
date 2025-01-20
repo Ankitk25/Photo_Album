@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ImageCard from './components/ImageCard';
 import ImageSearch from './components/ImageSearch';
+import PhotoUpload from './components/PhotoUpload';
 
 function App() {
   const [images, setImages] = useState([]);
@@ -27,6 +28,7 @@ function App() {
           <ImageCard key={image.id} image={image} />
         ))}
       </div>}
+      <PhotoUpload />
     </div>
   );
 }
