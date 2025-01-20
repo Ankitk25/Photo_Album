@@ -8,7 +8,7 @@ const SidebarProfile = () => {
     ];
 
     return (
-        <div className="w-64 p-6 bg-white rounded-lg shadow-md">
+        <div className="md:w-64 w-full p-6 bg-white rounded-lg shadow-md">
             <div className="text-center mb-6">
                 <img src="https://www.shutterstock.com/shutterstock/photos/2360352877/display_1500/stock-photo-bologna-italy-september-the-famous-batman-logo-to-celebrate-the-batman-day-2360352877.jpg" alt="Profile Picture" className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-gray-300 shadow-sm"/>
                 <h2 className="text-xl font-semibold text-gray-800">Guest</h2>
