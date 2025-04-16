@@ -4,7 +4,7 @@ A sleek, responsive Photo Album web application built using modern technologies 
 
 ## 🚀 Live Demo
 
-🔗 (photo-album-ashy.vercel.app)
+🔗 [View Live on Vercel](https://photo-album-ashy.vercel.app)
 
 ## ⚙️ Tech Stack
 - ⚛️ React
